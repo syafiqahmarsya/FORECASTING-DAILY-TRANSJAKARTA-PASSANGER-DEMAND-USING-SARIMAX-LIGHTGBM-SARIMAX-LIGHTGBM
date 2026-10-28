@@ -13,7 +13,7 @@ Reliable passenger forecasts can support public transportation planning, capacit
 - **Frequency:** Daily
 - **Target variable:** Daily number of TransJakarta BRT passengers
 - **Exogenous variables:** National holidays, Eid-related dates, and fare promotions
-- **Data source:** PPID PT Transportasi Jakarta [insert source link]
+- **Data source:** PPID PT Transportasi Jakarta [(https://ppid.transjakarta.co.id/)]
 
 ## Methodology
 1. Data preparation and exploratory data analysis (EDA)
@@ -23,7 +23,7 @@ Reliable passenger forecasts can support public transportation planning, capacit
 5. Hyperparameter optimization and time-series cross-validation
 6. Evaluation using MAE, RMSE, and MAPE
 
-## Tools & Technologies
+## Tools 
 - Python
 - R
 - pandas and NumPy
@@ -37,11 +37,9 @@ The models are evaluated using Mean Absolute Error (MAE), Root Mean Squared Erro
 
 | Model | MAE | RMSE | MAPE |
 |---|---:|---:|---:|
-| SARIMAX | [final result] | [final result] | [final result] |
-| LightGBM | [final result] | [final result] | [final result] |
-| Hybrid SARIMAX–LightGBM | 19,676.98 | 24,932.70 | 4.8664% |
-
-*Replace all metrics with the results from the final, consistent experiment before publication.*
+| SARIMAX | 24.918,89 | 32.161,33 | 6,1053% |
+| LightGBM | 27.439,20 | 48.278,42 | 7,8895% |
+| Hybrid SARIMAX–LightGBM | 22.364,07 | 30.489,99 | 5,6688% |
 
 ## Key Findings
 - Compared statistical, machine-learning, and hybrid forecasting approaches on the same passenger-demand forecasting task.
