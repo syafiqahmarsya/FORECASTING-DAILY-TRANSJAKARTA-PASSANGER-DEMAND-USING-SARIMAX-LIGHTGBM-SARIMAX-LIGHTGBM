@@ -53,3 +53,4 @@ Forecasting errors can increase during unusual events or sudden changes in passe
 ## Author
 Syafiqah Marsya Kholiyadi
 Mathematics graduate | Interested in Data Analytics, Statistical Modeling, and Forecasting
+<img width="833" height="1230" alt="image" src="https://github.com/user-attachments/assets/5da1f682-7aa2-4b43-8f08-02c137df6f9a" />
